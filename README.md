@@ -4,23 +4,19 @@
 ## 학습 효과를 높이기 위해 추천하는 미션 진행 방법
 
 ---
-1. 피드백 강의 전까지 미션 진행 
-> 피드백 강의 전까지 혼자 힘으로 미션 진행. 미션을 진행하면서 하나의 작업이 끝날 때 마다 add, commit
-> 예를 들어 다음 숫자 야구 게임의 경우 0, 1, 2단계까지 구현을 완료한 후 push
-
-![mission baseball](https://raw.githubusercontent.com/next-step/nextstep-docs/master/playground/images/mission_baseball.png)
+요구사항
+1. 프로그래밍 요구사항 <br/>
+   [x] 상속과 추상 메소드를 활용한다. <br/>
+   위 요구사항을 if/else 절을 쓰지 않고 구현해야 한다. <br/>
+   [x] 상속을 활용해 구현해야 한다. <br/>
+   [x] 공통 기능 구현을 담당할 Car 클래스를 추가한다. <br/>
+2. 프로그래밍 요구사항 <br/>
+   인터페이스를 적용해 구현한다.<br/>
 
 ---
-2. 피드백 앞 단계까지 미션 구현을 완료한 후 피드백 강의를 학습한다.
-
----
-3. Git 브랜치를 master 또는 main으로 변경한 후 피드백을 반영하기 위한 새로운 브랜치를 생성한 후 처음부터 다시 미션 구현을 도전한다.
-
-```
-git branch -a // 모든 로컬 브랜치 확인
-git checkout master // 기본 브랜치가 master인 경우
-git checkout main // 기본 브랜치가 main인 경우
-
-git checkout -b 브랜치이름
-ex) git checkout -b apply-feedback
-```
+기능명세
+1. docs: README에 기능명세 정리
+2. feat: RentCompany 를 만든다.
+3. feat: Car 객체를 각각 만든다. Car 객체는 abstract 객체로 만든다.
+4. feat: Car를 상속하는 Sonata, K5, Avante를 만든다.
+5. fix: 테스트 기능을 보완 수정한다.
