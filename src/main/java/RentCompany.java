@@ -1,15 +1,21 @@
 public class RentCompany {
 
-    public static void create(){
-        return;
+    void RentCompany() {
+        create();
+        addCar();
+        generateReport();
     }
 
-    public static void addCar(){
-        return;
+    public static RentCompany create(){
+        return null;
     }
 
-    public static void generateReport(){
-        return;
+    public static RentCompany addCar(){
+        return null;
+    }
+
+    public static String generateReport(){
+        return null;
     }
 
 }

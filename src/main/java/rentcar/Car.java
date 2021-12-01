@@ -1,7 +1,8 @@
-public abstract class Car {
+package rentcar;
 
+public abstract class Car {
     /**
-     * 리터 이동거리. 연비
+     * 리터당 이동거리. 연비
      */
     abstract double getDistancePerLiter();
 
